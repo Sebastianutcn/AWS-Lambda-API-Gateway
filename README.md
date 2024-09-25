@@ -6,8 +6,8 @@ This repository contains Terraform scripts to deploy an AWS Lambda function with
 2. [`rest_api.tf`](https://github.com/Sebastianutcn/AWS-Lambda-API-Gateway/blob/main/rest_api.tf) configures an API Gateway REST API, specifying resources, methods, integrations, and deployment settings to expose the Lambda function via HTTP endpoints.
 3. [`provider.tf`](https://github.com/Sebastianutcn/AWS-Lambda-API-Gateway/blob/main/provider.tf) is used to configure the provider.
 4. [`output.tf`](https://github.com/Sebastianutcn/AWS-Lambda-API-Gateway/blob/main/output.tf) provides the API Gateway's invoke URL after deployment.
-5. [`./src/index.html`](https://github.com/Sebastianutcn/CloudFront-CDN/blob/main/src/index.html) is a simple HTML file.
-6. [`./src/error.html`](https://github.com/Sebastianutcn/CloudFront-CDN/blob/main/src/index.html) is a custom HTML page displayed when an error is encountered.
+5. [`lambda_function.py`](https://github.com/Sebastianutcn/AWS-Lambda-API-Gateway/blob/main/lambda_function.py) contains the code for the AWS Lambda function.
+6. [`lambda.zip`](https://github.com/Sebastianutcn/CloudFront-CDN/blob/main/src/lambda.zip) is the deployment package for the AWS Lambda function.
 
 ## Installation
 - Terraform command to initialize the project
